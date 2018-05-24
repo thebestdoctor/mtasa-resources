@@ -163,7 +163,7 @@ function processEnd(winner,draw)
 				fadeCamera(player,false,10,0,0,0)
 			end
 			announcementText:visible(true)
-			announcementText:text("The match was a draw!")
+			announcementText:text("It was a draw!")
 			announcementText:color(255,255,255,255)
 			announcementText:sync()
 			return
